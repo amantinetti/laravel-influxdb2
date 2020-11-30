@@ -1,0 +1,32 @@
+{
+    "name": "amantinetti/laravel-influxdb2",
+    "description": "A service made to provide, set up and use the library from influxdata influx client php 2 in Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arturo Mantinetti",
+            "email": "arturo@wavedev.cl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "amantinetti\\InfluxDB\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^6 || ^7 || ^8",
+        "influxdata/influxdb-client-php": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "amantinetti\\InfluxDB\\Providers\\ServiceProvider"
+            ],
+            "aliases": {
+                "InfluxDB": "amantinetti\\InfluxDB\\Facades\\InfluxDB2"
+            }
+        }
+   }
+}

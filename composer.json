@@ -25,7 +25,7 @@
                 "amantinetti\\InfluxDB\\Providers\\ServiceProvider"
             ],
             "aliases": {
-                "InfluxDB": "amantinetti\\InfluxDB\\Facades\\InfluxDB2"
+                "InfluxDB": "amantinetti\\InfluxDB\\Facades\\InfluxDB"
             }
         }
    }

@@ -1,5 +1,5 @@
 {
-    "name": "amantinetti/laravel-influxdb2",
+    "name": "gelinger777/laravel-influxdb2",
     "description": "A service made to provide, set up and use the library from influxdata influx client php 2 in Laravel.",
     "type": "library",
     "license": "MIT",

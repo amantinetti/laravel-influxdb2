@@ -14,7 +14,7 @@ composer require amantinetti/laravel-influxdb2
 
 ```json
 "require": {
-    "amantinetti/laravel-influxdb2": "^1.0"
+    "amantinetti/laravel-influxdb2": "^0.0.1"
 }
 ```
 

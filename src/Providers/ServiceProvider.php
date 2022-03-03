@@ -1,6 +1,6 @@
 <?php
 
-namespace amantinetti\InfluxDB\Providers;
+namespace Amantinetti\InfluxDB\Providers;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use InfluxDB2\Client as InfluxDB;

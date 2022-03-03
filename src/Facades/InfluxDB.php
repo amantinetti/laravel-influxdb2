@@ -1,6 +1,6 @@
 <?php
 
-namespace amantinetti\InfluxDB\Facades;
+namespace Amantinetti\InfluxDB\Facades;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 use InfluxDB2\Client;

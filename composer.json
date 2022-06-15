@@ -11,21 +11,21 @@
     ],
     "autoload": {
         "psr-4": {
-            "amantinetti\\InfluxDB\\": "src/"
+            "Amantinetti\\InfluxDB\\": "src/"
         }
     },
     "require": {
-        "illuminate/support": "^6 || ^7 || ^8",
-        "influxdata/influxdb-client-php": "^1.9.0"
+        "illuminate/support": "^6 || ^7 || ^8 || ^9",
+        "influxdata/influxdb-client-php": "^1.9.0 | ^2.0"
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "amantinetti\\InfluxDB\\Providers\\ServiceProvider"
+                "Amantinetti\\InfluxDB\\Providers\\ServiceProvider"
             ],
             "aliases": {
-                "InfluxDB": "amantinetti\\InfluxDB\\Facades\\InfluxDB"
+                "InfluxDB": "Amantinetti\\InfluxDB\\Facades\\InfluxDB"
             }
         }
    }

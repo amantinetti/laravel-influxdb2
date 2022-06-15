@@ -26,14 +26,14 @@ composer require amantinetti/laravel-influxdb2
 ```php
 'providers' => [
 //  ...
-    amantinetti\InfluxDB\Providers\ServiceProvider::class,
+    Amantinetti\InfluxDB\Providers\ServiceProvider::class,
 ]
 ```
 
 ```php
 'aliases' => [
 //  ...
-    'InfluxDB' => amantinetti\InfluxDB\Facades\InfluxDB::class,
+    'InfluxDB' => Amantinetti\InfluxDB\Facades\InfluxDB::class,
 ]
 ```
 

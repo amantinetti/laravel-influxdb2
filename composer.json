@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "illuminate/support": "^6 || ^7 || ^8 || ^9",
+        "illuminate/support": "^6 || ^7 || ^8 || ^9 || ^10",
         "influxdata/influxdb-client-php": "^1.9.0 | ^2.0"
     },
     "minimum-stability": "dev",
@@ -28,5 +28,5 @@
                 "InfluxDB": "Amantinetti\\InfluxDB\\Facades\\InfluxDB"
             }
         }
-   }
+    }
 }
